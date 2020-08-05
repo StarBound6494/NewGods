@@ -2,7 +2,6 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/StarBound6494/NewGods)
 The New Gods Server Plugin for Minecraft
 
----
 
 > **Disclaimer**: New Gods was originally created by discord user **Liam (Kouvo)#4021**
 > They have not been seen active in over a year and due to community desire for continued plugin updates I have started releasing versions built off of Liam's code. I do not claim any of their work as my own. 
@@ -10,7 +9,7 @@ The New Gods Server Plugin for Minecraft
 
 ## About New Gods
 
----
+
 
 New Gods is a Minecraft plugin that allows players to create and worship their own gods. 
 Features include: 
@@ -31,6 +30,7 @@ Features include:
 
 ## Links
 
----
+
 **[Plugin Spigot Page](https://www.spigotmc.org/resources/new-gods.55163/)**
+
 **[Plugin Discord](https://discord.gg/83KXcg3)**
