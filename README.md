@@ -27,6 +27,10 @@ Features include:
 - **Shop** - You can spend your gained faith at your gods shop
 - **Blessings** - Gods will bless you with exp randomly
 
+## Download and Install
+To download the plugin head over the the Github releases box on the right and select the version which best suits you. If you do not know then you can ask in the community Discord linked below. From the release, select the NewGods jar file and download it. 
+
+Once the plugin is downloaded, drop it into your server's plugins folder and restart your server. New Gods supports reloading but restarting your server completely is always cleaner. After the restart the plugin will have generated a folder with a config file inside. You can use this to adjust the plugin's options to your liking. Details on the config file can be found on the plugin's Spigot page (also linked below)
 
 ## Links
 
