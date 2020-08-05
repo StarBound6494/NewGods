@@ -1,0 +1,56 @@
+#This is the new gods config file
+#Version 2.1.4
+TO-GET-CONFIG-HELP-CHECK-THE-DOWNLOAD-PAGE: https://www.spigotmc.org/resources/new-gods.55163/
+allow-marriges: true
+allow-prefixs: true
+exp-bless-amount: 50
+allow-exp-blessing: true
+sacrafice-update-speed: 30000
+god-punishments: true
+pray-delay: 600
+banned-god-names:
+- OFFENSIVE WORD
+- ANOTHER OFFENSIVE WORD
+- ETC
+buy-items:
+- COBBLESTONE,32,32,0
+- STONE,35,32,0
+- DARK_OAK_WOOD,64,32,0
+- COAL,8,1,0
+- LEATHER,16,1,0
+- SUGAR_CANE,10,1,0
+- WHEAT_SEEDS,10,5,0
+- MELON_SEEDS,16,1,0
+- PUMPKIN_SEEDS,16,1,0
+- BEETROOT_SEEDS,16,1,0
+- SADDLE,300,1,0
+- IRON_INGOT,16,1,50
+- GOLD_INGOT,64,1,100
+- DIAMOND,300,1,200
+buy-blessings:
+- FIRE_RESISTANCE,50,60,0
+- WATER_BREATHING,50,60,25
+- DAMAGE_RESISTANCE,50,60,50
+- INVISIBILITY,50,60,75
+- FAST_DIGGING,50,60,100
+- SPEED,50,60,125
+- JUMP,50,60,150
+- REGENERATION,50,60,175
+- NIGHT_VISION,50,60,200
+sacrafice-items:
+- APPLE,16,8
+- BONE,25,7
+- ROTTEN_FLESH,32,4
+- POTATO,16,5
+- DIRT,64,2
+- INK_SAC,3,20
+sacrafice-mobs:
+- COW,3,25
+- PLAYER,1,100
+- CHICKEN,10,10
+- SHEEP,3,25
+- ZOMBIE,3,25
+- SLIME,1,100
+- SQUID,1,50
+
+    

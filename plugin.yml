@@ -1,0 +1,139 @@
+main: com.fluff_stuff.newgods.NewGods
+api-version: 1.16
+version: 3.0.0
+name: NewGods
+commands: 
+  ghelp:
+    description: Helps you navigate the commands
+    usage: /ghelp
+  glist:
+    description: Lists all the current gods
+    usage: /glist
+  gmarry:
+    description: Allows you to marry
+    usage: /gmarry
+  gdivorce:
+    description: Allows you to divorce
+    usage: /gdivorce
+  gleave:
+    description: Abandon the god you worship
+    usage: /gleave
+  ghome:
+    description: Teleports you to your gods temple
+    usage: /ghome
+  gods:
+    description: Opens the god interface
+    usage: /gods    
+  gaccept:
+    description: Accepts pending requests
+    usage: /gaccept
+  gdeny:
+    description: Denies pending requests
+    usage: /gdeny
+  grank:
+    description: Ranks a member in your religion if your the leader
+    usage: /grank
+  gdemote:
+    description: Demote a member in your religion if your the leader
+    usage: /gdemote
+  gsethome:
+    description: Sets the home teleport position
+    usage: /gsethome
+  ginvite:
+    description: Invites player to your religion
+    usage: /ginvite
+  ginfo:
+    description: Gives you information about your god and you
+    usage: /ginfo
+  gbuy:
+    description: Opens your gods shop interface
+    usage: /gbuy
+  gsacrifice:
+    description: Opens your gods sacrifice interface
+    usage: /gsacrifice
+  gplugin:
+    description: Get information about this plugin
+    usage: /gplugin
+  gmarrytp:
+    description: Teleports you to your husband/wife
+    usage: /gmarrytp
+  gmarrygift:
+    description: Gives your husband/wife the item your holding
+    usage: /gmarrygift
+  gtype:
+    description: Set what type your god is
+    usage: /gtype
+    
+permissions:
+  newgods.accept:
+    description: Lets you accept a marriage/religion request
+    default: true
+  newgods.buy:
+    description: Lets you buy items with prayer points
+    default: true
+  newgods.demote:
+    description: Lets you remove priests from your religion
+    default: true
+  newgods.deny:
+    description: Denies a marriage/religion request
+    default: true
+  newgods.divorce:
+    description: Divorces your partner
+    default: true
+  newgods.gods:
+    description: Opens the gods interface
+    default: true
+  newgods.help:
+    description: Gives a list of commands
+    default: true
+  newgods.home:
+    description: Teleports you to your religions home
+    default: true
+  newgods.info:
+    description: Allows you to get information about your god
+    default: true
+  newgods.invite:
+    description: Lets people invite others to their religion
+    default: true
+  newgods.leave:
+    description: Allows players to leave their god
+    default: true
+  newgods.list:
+    description: Lets people list the gods on the server
+    default: true
+  newgods.marry:
+    description: Lets people marry others
+    default: true
+  newgods.rank:
+    description: Lets religious leaders rank people to priests
+    default: true
+  newgods.sacrifice:
+    description: Lets people sacrifice items to their god
+    default: true
+  newgods.sethome:
+    description: Leaders can set their religions /home location
+    default: true
+  newgods.pray:
+    description: Lets people pray to their gods
+    default: true
+  newgods.create:
+    description: This lets people create their own gods
+    default: true
+  newgods.plugin:
+    description: Allows players to know about this plugin
+    default: true
+  newgods.marrytp:
+    description: Lets you teleport to your partner
+    default: true
+  newgods.marrygift:
+    description: Lets you give items to your partner
+    default: true
+  newgods.type:
+    description: Allows you to change your gods type
+    default: true
+  newgods.halfpraytime:
+    description: You can wait half the time to pray again
+    default: op
+  newgods.doublexp:
+    description: Gods will give you double xp
+    default: op
