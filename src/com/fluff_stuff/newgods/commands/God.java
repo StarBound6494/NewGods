@@ -168,9 +168,9 @@ public class God implements CommandExecutor {
 		int playerID = NewGods.data.getPlayerID(p.getName());
 		int godID = NewGods.data.getGodID(NewGods.data.playerGod.get(playerID));
 		if(godID==-1){return;}
-		if (p.getItemInHand().isSimilar(new ItemStack(Material.getMaterial(NewGods.godItems.get(godID)),
+		if (p.getInventory().getItemInMainHand().isSimilar(new ItemStack(Material.getMaterial(NewGods.godItems.get(godID)),
 				NewGods.itemAmountLeft.get(godID)))) {						
-			p.getItemInHand().setAmount(p.getItemInHand().getAmount() - 1);
+			p.getInventory().getItemInMainHand().setAmount(p.getInventory().getItemInMainHand().getAmount() - 1);
 			
 			if(p.hasPermission("newgods.doublexp")){
 			p.sendMessage(ChatColor.valueOf(NewGods.data.godType.get(godID)) + "Sacrificed item and gained "

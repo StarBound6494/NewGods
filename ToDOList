@@ -1,0 +1,30 @@
+-in the manage section you should be able to invite a player
+-in the buy section you should be able to curce a player
+-manage section should allow you to bless people/couples
+-more god blessings other than just xp that are specialised to god
+-add pray delay to config
+-diffrent color = diffrent sacrafice eg green sacrafice flowers
+-add command that allows ops to add items theyre holding to god shop
+-can only sacrafice people/mobs at god alter
+-add console command to blessing list eg you put "money grant %player% 100" instead of "NIGHT_VISION,50,60,100"
+-add a /greload command
+
+Important:
+Pick god color in god manage
+God curses you if you dont pray enough
+
+Added List
+  fixed a alot of typos
+  added pray-delay to config
+
+
+Make hypereconomy cehst shop
+Checkout server op self and /pl <- fix these
+Lock chest plugin
+fix plugin file
+
+https://mods.curse.com/bukkit-plugins/minecraft/269177-new-gods
+https://dev.bukkit.org/projects/new-gods
+https://www.spigotmc.org/resources/new-gods-gods-marriages-blessings-sacrifices.41780/
+
+https://discord.gg/83KXcg3

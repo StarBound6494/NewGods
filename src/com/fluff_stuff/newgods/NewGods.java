@@ -215,31 +215,37 @@ public class NewGods extends JavaPlugin {
 						String playerGod = data.playerGod.get(i);
 						int godID = data.getGodID(playerGod);
 						Player p = getServer().getPlayer(data.playerNames.get(i));
+
 						if (p != null && godID != -1) {
 							if (r.nextFloat() > 0.9 && data.playerGodHappines.get(i)>20) {
 								p.giveExp(expAmount);
 								p.sendMessage(ChatColor.valueOf(data.godType.get(godID)) + playerGod + " has blessed you with "+expAmount+" enchanting xp.");							
 							}
-							if (r.nextFloat() > 0.75) {
-								data.playerGodHappines.set(i,data.playerGodHappines.get(i)-1);
-								data.playerGodHappines.set(i,(int) (data.playerGodHappines.get(i)*0.96f));
-							}									
-							if(data.playerGodHappines.get(i)<0){
-								data.playerGodHappines.set(i,2);
-								if(godPunnishments){
-									//curce player
-									 World world = p.getWorld();
-								     Location location = p.getLocation();
-								     world.strikeLightning(location);
-								     p.sendMessage(ChatColor.valueOf(data.godType.get(godID)) + playerGod + " is unhappy with your lack of praying and sacrifices.");
-									//curce player
+																
+							if(data.playerGodHappines.get(i)<=0){
+								data.playerGodHappines.set(i,5);
+								if(godPunnishments){									
+									//curse player
+									World world = p.getWorld();
+								    Location location = p.getLocation();
+								    world.strikeLightning(location);
+								    p.sendMessage(ChatColor.valueOf(data.godType.get(godID)) + playerGod + " is unhappy with your lack of praying and sacrifices.");
+								    world.strikeLightning(location.add(1, 0, 1));
+								    world.strikeLightning(location.add(-3, 0, 2));
+								    //curse player
 								}
+							}
+							
+							if (r.nextFloat() > 0.75) {
+								data.playerGodHappines.set(i,data.playerGodHappines.get(i)-5);
+								//data.playerGodHappines.set(i,(int) (data.playerGodHappines.get(i)*0.96f));
 							}
 						}
 					}
 				}
 			}, 0, sacraficeUpdateSpeed/10);
 		}
+		
 	}
 
 	private void registerInterfaces() {

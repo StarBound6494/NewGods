@@ -27,7 +27,7 @@ public class Info implements CommandExecutor {
 			player.sendMessage(ChatColor.AQUA+"You're a woshiper of " + playerGod +".");
 			player.sendMessage(ChatColor.AQUA+"Your faith power is " + NewGods.data.playerHolyness.get(playerID)+".");
 			player.sendMessage(ChatColor.AQUA+playerGod+" has "+NewGods.data.godBelievers.get(godID)+" followers.");	
-			player.sendMessage(ChatColor.AQUA+playerGod+" has a mass power of "+NewGods.data.godPower.get(godID)+".");	
+			player.sendMessage(ChatColor.AQUA+playerGod+" has a total faith power of "+NewGods.data.godPower.get(godID)+".");	
 			return true;
 		}
 		return true;
