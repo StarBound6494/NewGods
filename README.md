@@ -28,13 +28,13 @@ Features include:
 - **Blessings** - Gods will bless you with exp randomly
 
 ## Download and Install
-To download the plugin head over the the Github releases box on the right and select the version which best suits you. If you do not know then you can ask in the community Discord linked below. From the release, select the NewGods jar file and download it. 
+To download the plugin head over to the spigot page linked below and download the latest version. If you are running a minecraft version other than the latest you can use the version history to find the version of the plugin that works for your server. You can find help selecting the correct version on the plugin discord. 
 
 Once the plugin is downloaded, drop it into your server's plugins folder and restart your server. New Gods supports reloading but restarting your server completely is always cleaner. After the restart the plugin will have generated a folder with a config file inside. You can use this to adjust the plugin's options to your liking. Details on the config file can be found on the plugin's Spigot page (also linked below)
 
 ## Links
 
 
-**[Plugin Spigot Page](https://www.spigotmc.org/resources/new-gods.55163/)**
+**[Plugin Spigot Page](https://www.spigotmc.org/resources/new-new-gods.89188/)**
 
 **[Plugin Discord](https://discord.gg/83KXcg3)**
