@@ -1,7 +1,7 @@
 # New Gods
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/StarBound6494/NewGods)
 The New Gods Server Plugin for Minecraft
-
+If you have any issues please use open an issue on github.
 
 > **Disclaimer**: New Gods was originally created by discord user **Liam (Kouvo)#4021**
 > They have not been seen active in over a year and due to community desire for continued plugin updates I have started releasing versions built off of Liam's code. I do not claim any of their work as my own. 
